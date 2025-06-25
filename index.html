@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>4 Section Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f3;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      padding: 30px;
+      text-align: center;
+      background-color: white;
+    }
+
+    .section {
+      width: 20%;
+      background-color: #fdfdfd;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .section:hover {
+      transform: scale(1.05);
+    }
+
+    .section img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="section">
+    <img src="home.png" alt="Home Icon">
+    <h2>Home</h2>
+    <p>Welcome to our homepage. Get the latest updates and news.</p>
+  </div>
+
+  <div class="section">
+    <img src="about.png" alt="About Icon">
+    <h2>About</h2>
+    <p>Learn more about our mission, vision, and our journey so far.</p>
+  </div>
+
+  <div class="section">
+    <img src="gallery.png" alt="Gallery Icon">
+    <h2>Gallery</h2>
+    <p>Check out our collection of amazing memories and events.</p>
+  </div>
+
+  <div class="section">
+    <img src="contact.png" alt="Contact Icon">
+    <h2>Contact</h2>
+    <p>Feel free to get in touch with us through email or phone.</p>
+  </div>
+</div>
+
+</body>
+</html>
